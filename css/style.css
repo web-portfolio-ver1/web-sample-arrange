@@ -377,21 +377,6 @@ img {
   text-align: center;
 }
 
-/*画像のアニメーション追加*/
-
-.js-animation {
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(40px);
-  transition: all 1s;
-}
-
-.js-animation.is-show {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0px);
-}
-
 /*media Queries 767
 ----------------------------------------------------*/
 @media screen and (max-width: 767px) {
