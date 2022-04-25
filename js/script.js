@@ -25,10 +25,10 @@ $(function(){
     var effect_time = 1000; // エフェクトの時間(ms) 1秒なら1000
 
     //親要素と子要素のcssを定義
-    $('.scroll-fade-row').css({
+    $('.scroll-fade').css({
         opacity: 0
     });
-    $('.scroll-fade-row').children().each(function(){
+    $('.scroll-fade').children().each(function(){
         $(this).css({
             opacity: 0,
             transform: 'translateY('+ effect_move +'px)',
@@ -43,7 +43,7 @@ $(function(){
         var effect_pos = scroll_btm - effect_btm;
 
         //エフェクトが発動したとき、子要素をずらしてフェードさせる
-        $('.scroll-fade-row').each( function() {
+        $('.scroll-fade').each( function() {
             var this_pos = $(this).offset().top;
             if ( effect_pos > this_pos ) {
                 $(this).css({
