@@ -471,7 +471,8 @@ img {
   }
 
   .works-list {
-    display: flex;
+    display: block;
+    marigin: 0 auto;
   }
 
   works-img {
