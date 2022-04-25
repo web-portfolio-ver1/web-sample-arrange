@@ -475,12 +475,6 @@ img {
     marigin: 0 auto;
   }
 
-  .works-img {
-    width: 150px;
-    margin: 0 auto;
-    margin-bottom: 25px;
-  }
-
   .works-item {
     flex: 0 0 48%;
     margin-right: 0;
