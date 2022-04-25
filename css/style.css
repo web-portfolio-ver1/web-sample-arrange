@@ -471,7 +471,13 @@ img {
   }
 
   .works-list {
-    justify-content: space-between;
+    display: block;
+  }
+
+  works-img {
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 25px;
   }
 
   .works-item {
