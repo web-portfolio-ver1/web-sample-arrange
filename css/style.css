@@ -472,7 +472,8 @@ img {
 
   .works-list {
     display: flex;
-    margin: auto;
+    margin: 10px;
+    padding: 10px;
   }
 
   works-img {
