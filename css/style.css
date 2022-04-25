@@ -470,10 +470,6 @@ img {
     margin-top: 3px;
   }
 
-  .works-list {
-    justify-content: space-between;
-  }
-
   .works-item {
     flex: 0 0 48%;
     margin-right: 0;
