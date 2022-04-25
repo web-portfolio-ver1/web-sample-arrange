@@ -471,14 +471,7 @@ img {
   }
 
   .works-list {
-    display: block;
-    margin-bottom: 0;
-  }
-
-  .works-img {
-    width: 150px;
-    margin: 0 auto;
-    margin-bottom: 25px;
+    justify-content: space-between;
   }
 
   .works-item {
