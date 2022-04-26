@@ -19,9 +19,9 @@ $(function () {
 });
 
 $(function(){
-    var effect_pos = 20; // 画面下からどの位置でフェードさせるか(px)
+    var effect_pos = 10; // 画面下からどの位置でフェードさせるか(px)
     var effect_move = 100; // どのぐらい要素を動かすか(px)
-    var effect_time = 800; // エフェクトの時間(ms) 1秒なら1000
+    var effect_time = 1000; // エフェクトの時間(ms) 1秒なら1000
 
     // フェードする前のcssを定義
     $('.scroll-fade').css({
