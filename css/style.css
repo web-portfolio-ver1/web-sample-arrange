@@ -36,8 +36,7 @@ img {
 }
 
 .section {
-  height: 500px;
-  padding: 10px 0;
+  padding: 90px 0;
 }
 
 .section:nth-of-type(odd) {
@@ -411,8 +410,7 @@ img {
   }
 
   .section {
-    height: 500px;
-    padding: 150px 0;
+    padding: 60px 0;
   }
 
   .container {
